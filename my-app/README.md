@@ -79,6 +79,13 @@ pnpm run build
 # or
 npm run build
 ```
+Preview the production build:
+
+```bash
+pnpm run preview
+```
+
+The preview will be available at `http://localhost:4173`.
 
 ## Project Structure
 
