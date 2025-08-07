@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --font-grotesk: "Space Grotesk", sans-serif;
+  --brand-purple: hsl(278, 68%, 11%);
+  --gradient-start: hsl(249, 99%, 64%);
+  --gradient-end: hsl(278, 94%, 30%);
+  --gray-400: hsl(212, 12%, 71%);
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-grotesk);
+}
+.input-gradient {
+  background-image: linear-gradient(to right, var(--gradient-start), var(--gradient-end));
+  
+}
