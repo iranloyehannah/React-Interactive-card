@@ -14,7 +14,7 @@ const CardPreview = ({ cardData }) => {
   } = cardData || {}; //prevent crash on null
 
   return (
-    <section className=" w-full h-[280px] lg:w-[35%] lg:h-full relative ">
+    <section className=" w-full h-[280px] lg:w-[35%] lg:h-screen relative ">
       <img src={bgMainDesktop} alt="" className="h-full w-full object-cover" />
       <div className="absolute top:[15%] left:[50%] translate-x-[5%] translate-y-[-70%] lg:top-[15%] lg:left-[40%] lg:translate-y-0 lg:translate-x-0 rounded-md  z-20">
         <div className="w-[300px] h-[180px] lg:w-[400px] lg:h-[250px]">

@@ -16,10 +16,10 @@ const App = () => {
 
   return (
     <>
-      <section className="w-full max-h-[760px] lg:h-screen flex flex-col gap-10 lg:gap-0 lg:flex-row font-medium">
+      <section className="w-full max-h-[760px] lg:h-full flex flex-col gap-10 lg:gap-0 lg:flex-row font-medium">
         <CardPreview cardData={submittedData} />
         {message ? (
-          <div className="w-full h-[350px] lg:w-[70%] lg:h-[750px] flex items-center flex-col justify-center gap-4">
+          <div className="w-full h-[350px] lg:w-[70%] border lg:h-[750px] flex items-center flex-col justify-center gap-4">
             <img src={completeIcon} alt="completeIcon" />
             <p className="text-2xl">Thank You</p>
             <span>We added Your Card Details</span>
